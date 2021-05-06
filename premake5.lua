@@ -6,7 +6,7 @@ project "GLFW"
 	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("%{wks.location}/bin/obj/" .. outputdir .. "/%{prj.name}")
 	
-	includedirs { "glfw/include/" }
+	includedirs { "include/" }
 
 	files
 	{
